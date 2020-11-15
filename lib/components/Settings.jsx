@@ -297,7 +297,7 @@ export default class Settings extends React.Component
 	{
 		const settings = this.state.settings;
 
-		settings['callstats.enabled'] = !settings.callstats.enabled;
+		settings['callstats']['enabled'] = !settings.callstats.enabled;
 		this.setState({ settings });
 	}
 
